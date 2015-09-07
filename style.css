@@ -13,7 +13,10 @@ article, aside, footer, header, main, nav, section {
 .banner {
   background-color: #339933;
   color: white;
-  padding: 10px 20px;
+}
+
+.bannerlogo {
+	padding: 10px;
 }
 
 body {
@@ -57,7 +60,8 @@ main {
 
 aside {
 	background-color: #C0C0C0;
-	padding: 10px;
+	width: 310px;
+	float: right;
 }
 
 .pagebanner {
