@@ -1,0 +1,69 @@
+@charset "UTF-8";
+
+article, aside, footer, header, main, nav, section {
+  display: block;
+}
+
+html, body, h1, h2, h3, ul, li, a, p, 
+article, aside, footer, header, main, nav, section {
+  padding: 0;
+  margin: 0;
+}
+
+.banner {
+  background-color: #339933;
+  color: white;
+  padding: 10px 20px;
+}
+
+body {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #f0f0f0;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 15px;
+}
+
+nav {
+	margin-top: 1px;
+	background-color: #006600;
+	padding: 5px;
+}
+
+li a {
+	color: white;
+}
+
+li {
+	display: inline;
+	margin-left: 15px;
+	margin-right: 15px;
+	font-size: 20px;
+	font-variant: small-caps;
+	font-weight: bold;
+}
+
+section {
+	background-color: #C0C0C0;
+	padding: 10px;
+}
+
+.pagebanner {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+article {
+	background-color: white;
+	padding: 5px;
+	margin-top: 5px;
+}
+
+.shoplink {
+	font-size: 20px;
+}
+
+.shopsectoin {
+	text-decoration: none;
+}
